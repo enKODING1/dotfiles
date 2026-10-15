@@ -51,7 +51,12 @@ clone https://github.com/romkatv/powerlevel10k.git              "$ZSH_CUSTOM/the
 clone https://github.com/zsh-users/zsh-autosuggestions.git      "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
 clone https://github.com/zsh-users/zsh-syntax-highlighting.git  "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
 
-# 4. 심볼릭 링크
+# 4. pokemon-colorscripts (sudo 없이 ~/.local 에 설치)
+clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git  "$HOME/.local/share/pokemon-colorscripts"
+mkdir -p "$HOME/.local/bin"
+ln -sf "$HOME/.local/share/pokemon-colorscripts/pokemon-colorscripts.py" "$HOME/.local/bin/pokemon-colorscripts"
+
+# 5. 심볼릭 링크
 link zsh/.zshrc    .zshrc
 link zsh/.zprofile .zprofile
 link zsh/.p10k.zsh .p10k.zsh

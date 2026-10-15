@@ -1,3 +1,6 @@
+# 터미널 시작 시 랜덤 포켓몬 출력 (출력이 있으므로 p10k instant prompt 보다 위에 있어야 함)
+[[ -x ~/.local/bin/pokemon-colorscripts ]] && ~/.local/bin/pokemon-colorscripts -r
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.

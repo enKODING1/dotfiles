@@ -10,6 +10,7 @@ git clone https://github.com/enKODING1/dotfiles.git ~/dotfiles
 ```
 
 - Homebrew, Oh My Zsh, Powerlevel10k, zsh-autosuggestions, zsh-syntax-highlighting 을 설치
+- [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts) 를 `~/.local` 에 설치 (터미널 시작 시 랜덤 포켓몬 출력)
 - `Brewfile` 의 패키지 설치 (건너뛰려면 `SKIP_BREW=1 ./install.sh`)
 - 기존 파일은 `~/.dotfiles_backup/<날짜>/` 로 백업 후 심볼릭 링크 생성
 
